@@ -227,4 +227,6 @@ List endpoints that your server will implement, including HTTP methods, paramete
  - Interactive Map : Allowing users to easily find the nearby stores or online retailers
  
  - Personalized Recommendation : suggests brands based on user's preferences, purchase histoey and sustainability priorities
+
+ - Shooping Cart and Checkout page
  
