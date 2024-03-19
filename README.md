@@ -6,14 +6,11 @@ Eco-Fashion Marketplace is a place to access brands that use eco-friendly materi
 
 ### Problem
 
-Why is your app needed? Background information around any pain points or other reasons.
 Among the world's most polluting businesses is the fashion industry. The environment is harmed during the clothes manufacture process. This has compelled a lot of fashion businesses to use eco-friendly production techniques. Many of these fashion labels use organic cotton and upcycled resources to create high-end, eco-friendly apparel. 
 
 Consumers, interested in purchasing sustainable fashion invest significant time  and effort into researching brands and their practices. They often resort to searching through various online platforms, reading product descriptions, and checking customer reviews to assess a brand's sustainability credentials. 
 
 ### User Profile
-
-Who will use your app? How will they use it? Any special considerations that your app must take into account.
 
 - Fashion enthusiasts:
     - looking for a sustainable fashion brands
@@ -21,11 +18,7 @@ Who will use your app? How will they use it? Any special considerations that you
     - looking for desired fashion styles made from eco-friendly materials
     
 
-
-
 ### Features
-
-List the functionality that your app will include. These can be written as user stories or descriptions with related details. Do not describe _how_ these features are implemented, only _what_ needs to be implemented.
 
 - As a user, I want to be able to access different sustainable fashion brands
 - As a user, I want to be able to have detailed information for each sustainable fashion brand including information about their mission, values, and their supply chain transparency
@@ -42,17 +35,51 @@ List the functionality that your app will include. These can be written as user 
 
 List technologies that will be used in your app, including any libraries to save time or provide more functionality. Be sure to research any potential limitations.
 
+- React js
+- SASS
+- Node js
+- MySQL
+
+- Client libraries:
+    - react
+    - react-router
+    - axios
+
+- Server libraries:
+    - Knex js
+    - Express 
+    
 ### APIs
 
 List any external sources of data that will be used in your app.
+
+- No external APIs will be used
 
 ### Sitemap
 
 List the pages of your app with brief descriptions. You can show this visually, or write it out.
 
+- Home page
+- About Us page
+- Contact page
+- Fashion brand detailed page
+- Register
+- Login
+
 ### Mockups
 
 Provide visuals of your app's screens. You can use tools like Figma or pictures of hand-drawn sketches.
+
+### Home Page
+![] (homepage.png)
+
+### Sign Up Page
+![] (signup.png)
+
+
+
+
+
 
 ### Data
 
