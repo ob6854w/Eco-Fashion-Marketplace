@@ -63,27 +63,27 @@ Consumers, interested in purchasing sustainable fashion invest significant time 
 ### Mockups
 
 ### Home Page
-![] (homepage.png)
+![](homepage.png)
 
 ### Sign Up Page
-![] (signup.png)
+![](signup.png)
 
 ### Login Page
-![] (login page.png)
+![](loginpage.png)
 
 ### About Us Page
-![] (About Us.png)
+![](aboutus.png)
 
 ### Contact Us Page
-![] (contact us.png)
+![](contactus.png)
 
 ### Fashion Brand Detailed Page
-![] (detailled page.png)
+![](detailedpage.png)
 
 
 ### Data
 
-![] (sql-diagram.png)
+![](sql-diagram.png)
 
 ### Endpoints
 
