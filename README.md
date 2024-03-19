@@ -33,8 +33,6 @@ Consumers, interested in purchasing sustainable fashion invest significant time 
 
 ### Tech Stack
 
-List technologies that will be used in your app, including any libraries to save time or provide more functionality. Be sure to research any potential limitations.
-
 - React js
 - SASS
 - Node js
@@ -51,24 +49,18 @@ List technologies that will be used in your app, including any libraries to save
     
 ### APIs
 
-List any external sources of data that will be used in your app.
-
 - No external APIs will be used
 
 ### Sitemap
-
-List the pages of your app with brief descriptions. You can show this visually, or write it out.
 
 - Home page
 - About Us page
 - Contact page
 - Fashion brand detailed page
-- Register
+- Sign Up
 - Login
 
 ### Mockups
-
-Provide visuals of your app's screens. You can use tools like Figma or pictures of hand-drawn sketches.
 
 ### Home Page
 ![] (homepage.png)
@@ -76,8 +68,17 @@ Provide visuals of your app's screens. You can use tools like Figma or pictures 
 ### Sign Up Page
 ![] (signup.png)
 
+### Login Page
+![] (login.png)
 
+### About Us Page
+![] (About Us.png)
 
+### Contact Us Page
+![] (contact us.png)
+
+### Fashion Brand Detailed Page
+![] (detailled page.png)
 
 
 
