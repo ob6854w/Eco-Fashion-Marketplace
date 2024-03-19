@@ -69,7 +69,7 @@ Consumers, interested in purchasing sustainable fashion invest significant time 
 ![] (signup.png)
 
 ### Login Page
-![] (login.png)
+![] (login page.png)
 
 ### About Us Page
 ![] (About Us.png)
@@ -88,6 +88,21 @@ Consumers, interested in purchasing sustainable fashion invest significant time 
 ### Endpoints
 
 List endpoints that your server will implement, including HTTP methods, parameters, and example responses.
+
+**GET /brands**
+  - Returns lists of brands
+
+  **GET /brands/:id**
+    - Returns a lists of brands with a specific ID.
+
+ **POST /brands**
+    - creates and returns the new brands created
+
+ **PUT /brands/:id**
+    - updates the brand with specific ID and returns the updated brand
+
+ **DELETE /brands/:id**
+    - deletes the brand with specific ID
 
 ### Auth
 
