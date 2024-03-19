@@ -81,10 +81,9 @@ Consumers, interested in purchasing sustainable fashion invest significant time 
 ![] (detailled page.png)
 
 
-
 ### Data
 
-Describe your data and the relationships between them. You can show this visually using diagrams, or write it out. 
+![] (sql-diagram.png)
 
 ### Endpoints
 
@@ -92,12 +91,33 @@ List endpoints that your server will implement, including HTTP methods, paramete
 
 ### Auth
 
-Does your project include any login or user profile functionality? If so, describe how authentication/authorization will be implemented.
+- JWT auth (JSON WEB TOKEN)
+    - After a user signs up by providing personal information
+    - User authenticates by providing neccessary credentials for login
+    - After successful authentication, the server will generate token
+    - The token information will be sent to the client
+    - The token is later stored in local storage by the client
+    - The token is discarded when the user logged out
 
 ## Roadmap
 
-Scope your project as a sprint. Break down the tasks that will need to be completed and map out timeframes for implementation. Think about what you can reasonably complete before the due date. The more detail you provide, the easier it will be to build.
+- Create the folder structure for client
+    - Set up the client side using React js by creating components, routes and pages
+    - Implement the html layout and styling
+
+- Create the folder structure for server
+    - Set up the server side using Node js with express framework
+    -  Gather sample data for different fashion brands that use eco-friendly materials
+    - Set up the routing and controllers
+    - Set up migrations 
+    - Set up seeds with sample of data
+
+- Feature: detailed page of each fashion brands
+    - Create a GET request from the server to populate the client side
+
+
 
 ## Nice-to-haves
 
 Your project will be marked based on what you committed to in the above document. Under nice-to-haves, you can list any additional features you may complete if you have extra time, or after finishing.
+
