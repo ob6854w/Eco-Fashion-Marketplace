@@ -92,17 +92,101 @@ List endpoints that your server will implement, including HTTP methods, paramete
 **GET /brands**
   - Returns lists of brands
 
+    ```Response:
+    
+        [
+            {
+                "id": 1,
+                "name": "EcoThreads",
+                "description": "Eco-friendly clothing brand commited to sustainable practices"
+                "location": "Los Angeles, CA",
+                "website": "https://www.ecothreads.com" 
+            }
+        ]
+    ```
+
   **GET /brands/:id**
     - Returns a lists of brands with a specific ID.
+
+    ```Response:
+    
+        [
+            {
+                "id": 1,
+                "name": "EcoThreads",
+                "description": "Eco-friendly clothing brand commited to sustainable practices"
+                "location": "Los Angeles, CA",
+                "website": "https://www.ecothreads.com" 
+            }
+        ]
+    ```
 
  **POST /brands**
     - creates and returns the new brands created
 
+    ```Response:
+    
+        [
+            {
+                "id": 1,
+                "name": "EcoThreads",
+                "description": "Eco-friendly clothing brand commited to sustainable practices"
+                "location": "Los Angeles, CA",
+                "website": "https://www.ecothreads.com" 
+            }
+        ]
+    ```
+
+
  **PUT /brands/:id**
     - updates the brand with specific ID and returns the updated brand
 
- **DELETE /brands/:id**
-    - deletes the brand with specific ID
+    ```Response:
+    
+        [
+            {
+                "id": 1,
+                "name": "EcoThreads",
+                "description": "Eco-friendly clothing brand commited to sustainable practices"
+                "location": "Los Angeles, CA",
+                "website": "https://www.ecothreads.com" 
+            }
+        ]
+    ```
+
+ **GET /products**
+   - Returns lists of products
+    ```Response:
+    
+        [
+            {
+                "id": 101,
+                "name": "Organic Cotton T-Shirt",
+                "price": $29.99,
+                "image": "https://www.ecothreads.com/images/organic-cotton-tshirt.jpg" 
+            }
+        ]
+    ```
+
+     **GET brands/products/:id**
+     - Returns a lists of brands with a specific ID.
+        
+        ```Response:
+    
+        [
+            {
+                "id": 101,
+                "name": "Organic Cotton T-Shirt",
+                "brand": "EcoThreads",
+                "description" A comfortableand breathable t-shirt made from 100% organic cotton",
+                "price": $29.99,
+                "image": "https://www.ecothreads.com/images/organic-cotton-tshirt.jpg" 
+                "sizes": ["S", "M", "L", "XL"],
+                "colors": ["White", "Black", "Gray", "Navy"]
+            }
+        ]
+    ```
+       
 
 ### Auth
 
@@ -119,6 +203,8 @@ List endpoints that your server will implement, including HTTP methods, paramete
 - Create the folder structure for client
     - Set up the client side using React js by creating components, routes and pages
     - Implement the html layout and styling
+    - Add functionality to the site
+    - Authenticate and Authorize the sign up and login page
 
 - Create the folder structure for server
     - Set up the server side using Node js with express framework
@@ -126,13 +212,18 @@ List endpoints that your server will implement, including HTTP methods, paramete
     - Set up the routing and controllers
     - Set up migrations 
     - Set up seeds with sample of data
+    - Create database on MySQL
+    - Implement CRUD operations (Create, Read, Update and Delete)
+    - Use Endpoints such as, GET, POST, PUT and DELETE to access the database table
 
-- Feature: detailed page of each fashion brands
-    - Create a GET request from the server to populate the client side
+
 
 
 
 ## Nice-to-haves
 
-Your project will be marked based on what you committed to in the above document. Under nice-to-haves, you can list any additional features you may complete if you have extra time, or after finishing.
-
+ 
+ - Interactive Map : Allowing users to easily find the nearby stores or online retailers
+ 
+ - Personalized Recommendation : suggests brands based on user's preferences, purchase histoey and sustainability priorities
+ 
